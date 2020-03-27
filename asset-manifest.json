@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-accessibility-dialog/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-accessibility-dialog/static/js/main.e056e774.chunk.js",
-    "main.js.map": "/react-accessibility-dialog/static/js/main.e056e774.chunk.js.map",
+    "main.js": "/react-accessibility-dialog/static/js/main.b80780ed.chunk.js",
+    "main.js.map": "/react-accessibility-dialog/static/js/main.b80780ed.chunk.js.map",
     "runtime-main.js": "/react-accessibility-dialog/static/js/runtime-main.ff2ebbf8.js",
     "runtime-main.js.map": "/react-accessibility-dialog/static/js/runtime-main.ff2ebbf8.js.map",
     "static/js/2.d42403ce.chunk.js": "/react-accessibility-dialog/static/js/2.d42403ce.chunk.js",
     "static/js/2.d42403ce.chunk.js.map": "/react-accessibility-dialog/static/js/2.d42403ce.chunk.js.map",
     "index.html": "/react-accessibility-dialog/index.html",
-    "precache-manifest.a0ace24812b37ebf3ba4c2ec66a704b3.js": "/react-accessibility-dialog/precache-manifest.a0ace24812b37ebf3ba4c2ec66a704b3.js",
+    "precache-manifest.059ccdadf6c9d9584e85f98d923db107.js": "/react-accessibility-dialog/precache-manifest.059ccdadf6c9d9584e85f98d923db107.js",
     "service-worker.js": "/react-accessibility-dialog/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/react-accessibility-dialog/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.d42403ce.chunk.js.LICENSE.txt": "/react-accessibility-dialog/static/js/2.d42403ce.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ff2ebbf8.js",
     "static/js/2.d42403ce.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.e056e774.chunk.js"
+    "static/js/main.b80780ed.chunk.js"
   ]
 }
