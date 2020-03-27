@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import { Button } from '@material-ui/core';
+import { Dialog } from './Dialog/Dialog';
+import { CustomDialog } from './CustomDialog/CustomDialog';
 
 function App() {
+  const [isDialogOpen, updateIsDialogOpen] = useState(false);
+  const [isCustomDialogOpen, updateIsCustomDialogOpen] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Two implementations of <strong>Dialog</strong> based on{' '}
+          <a href="https://www.w3.org/TR/wai-aria-practices/examples/dialog-modal/alertdialog.html">standards</a>{' '}
+          provided by WCGA
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>
+          CustomDialog: <Button onClick={() => updateIsCustomDialogOpen(true)}>Open</Button>
+        </p>
+        <p>
+          MUI Dialog: <Button onClick={() => updateIsDialogOpen(true)}>Open</Button>
+        </p>
+      </div>
+      <Dialog open={isDialogOpen} onClose={() => updateIsDialogOpen(false)} />
+      <CustomDialog open={isCustomDialogOpen} onClose={() => updateIsCustomDialogOpen(false)} />
     </div>
   );
 }

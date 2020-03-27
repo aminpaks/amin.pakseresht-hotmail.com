@@ -1,0 +1,10 @@
+{
+    "[javascript]": {
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true
+    },
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert"
+}
